@@ -26,7 +26,7 @@ export const About = () => {
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold text-pink-500 mb-4">About us</h3>
             <p className="text-gray-700 mb-6">
-            Founded in 2020, Sweets & Baked began with a simple dream: to bring joy to people’s lives through the warmth of homemade cakes and pastries. What started as a small kitchen endeavor has grown into a beloved cake business known for its delicious, handcrafted creations and heartfelt service.
+            Founded in 2021, Sweets & Baked began with a simple dream: to bring joy to people’s lives through the warmth of homemade cakes and pastries. What started as a small kitchen endeavor has grown into a beloved cake business known for its delicious, handcrafted creations and heartfelt service.
             we believe that every celebration deserves something sweet. From birthdays to weddings, or even just a quiet moment with coffee, our cakes are made to create memories. Each treat is crafted with love, using quality ingredients and a passion for baking that’s been with us since day one.
             </p>
       
