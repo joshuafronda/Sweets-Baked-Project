@@ -3,16 +3,7 @@ import BackgroundImage from '../img/MOM.png'
 export const Hero = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
-      <div 
-        className="absolute inset-0 bg-pink-200 opacity-100"
-        style={{
-          backgroundImage: `url(${BackgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      ></div>
+      
       
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-24 h-24 rounded-full bg-pink-100 opacity-60 animate-float"></div>
