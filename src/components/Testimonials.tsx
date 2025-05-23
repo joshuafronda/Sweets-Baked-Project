@@ -1,35 +1,31 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 interface Testimonial {
   id: number;
   name: string;
   role: string;
   quote: string;
-  image: string;
 }
 
 export const Testimonials = () => {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Happy Customer",
+      name: "Sarah Castro",
+      role: "Customer",
       quote: "The birthday cake for my daughter was absolutely stunning! Not only did it look beautiful, but it tasted amazing too. Everyone at the party was impressed!",
-      image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Groom",
-      quote: "Our wedding cake was a dream come true. Sweet Delights took our vision and created something even more beautiful than we imagined. The cake was the highlight of our reception!",
-      image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      name: "Michael De chavez",
+      role: "Customer",
+      quote: "Our wedding cake was a dream come true. Sweet & Baked took our vision and created something even more beautiful than we imagined. The cake was the highlight of our reception!",
     },
     {
       id: 3,
       name: "King Darell",
-      role: "Event Planner",
-      quote: "I've worked with many bakeries for client events, but Sweet Delights is by far the best. Their creativity, reliability, and delicious cakes have made them my go-to recommendation.",
-      image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      role: "Customer",
+      quote: "I've worked with many bakeries for client events, but Sweets & Baked is by far the best. Their creativity, reliability, and delicious cakes have made them my go-to recommendation.",
     }
   ];
   
@@ -77,13 +73,6 @@ export const Testimonials = () => {
                   >
                     <p className="text-gray-700 text-lg italic mb-8">"{testimonial.quote}"</p>
                     <div className="flex items-center">
-                      <div className="h-12 w-12 rounded-full overflow-hidden mr-4">
-                        <img 
-                          src={testimonial.image} 
-                          alt={testimonial.name} 
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
                       <div>
                         <h4 className="font-semibold text-pink-600">{testimonial.name}</h4>
                         <p className="text-sm text-gray-500">{testimonial.role}</p>

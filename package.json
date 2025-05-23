@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-spring/web": "^10.0.1",
     "framer-motion": "^12.9.4",
     "lucide-react": "^0.344.0",
     "ogl": "^1.0.11",

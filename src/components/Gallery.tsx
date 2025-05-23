@@ -183,9 +183,9 @@ export const Gallery = () => {
     <section id="gallery" className="py-20 bg-pink-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-pink-600 mb-4 font-['Dancing_Script',_cursive]">Our Delicious Creations</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-pink-600 mb-4 font-['Dancing_Script',_cursive]">Sweets & Baked</h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
-            Browse our gallery of handcrafted cakes, each one designed with care and attention to detail.
+            Delight in our handcrafted cakes, meticulously designed and delivered with care—perfect for any occasion..
           </p>
           <div className="w-24 h-1 bg-pink-200 mx-auto mt-4"></div>
         </div>
@@ -216,12 +216,6 @@ export const Gallery = () => {
         </div>
         
         <div className="text-center mt-12">
-          <button 
-            onClick={() => handleImageClick(cakes[0])}
-            className="inline-block bg-pink-500 hover:bg-pink-600 text-white font-medium py-3 px-8 rounded-full shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
-          >
-            Click for more picture
-          </button>
         </div>
       </div>
 

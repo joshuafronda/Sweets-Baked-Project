@@ -14,10 +14,7 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-pink-100 mb-4">
-              Crafting delicious cakes and sweet memories since 2020.
-            </p>
-            <p className="text-pink-100">
-              Made with love in Sweet City. 
+              Crafting delicious cakes and sweet memories since 2021.
             </p>
           </div>
           
