@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import weddingImage1 from '../img/wedding_1.jpg';
-import weddingImage2 from '../img/Wedding_2.jpg';
+import weddingImage2 from '../img/wedding_2.jpg';
 import weddingImage3 from '../img/wedding_3.jpg';
 import weddingImage4 from '../img/wedding_4.jpg';
-import weddingImage5 from '../img/Wedding_5.jpg';
+import weddingImage5 from '../img/wedding_5.jpg';
 import weddingImage6 from '../img/wedding_6.jpg';
 import weddingImage7 from '../img/wedding_7.jpg';
-import weddingImage8 from '../img/Wedding_8.jpg';
+import weddingImage8 from '../img/wedding_8.jpg';
 import weddingImage9 from '../img/wedding_9.jpg';
 import weddingImage10 from '../img/wedding_10.jpg';
-import weddingImage11 from '../img/Wedding_11.jpg';
+import weddingImage11 from '../img/wedding_11.jpg';
 import weddingImage12 from '../img/wedding_12.jpg';
 import weddingImage13 from '../img/wedding_13.jpg';
 import weddingImage14 from '../img/wedding_14.jpg';
@@ -97,12 +97,6 @@ export const Gallery = () => {
     return category === 'all' 
       ? cakes 
       : cakes.filter(cake => cake.category === category);
-  };
-
-  const handleImageClick = (cake: Cake) => {
-    setSelectedCake(cake);
-    setCurrentImageIndex(0);
-    setIsModalOpen(true);
   };
 
   const closeModal = () => {
