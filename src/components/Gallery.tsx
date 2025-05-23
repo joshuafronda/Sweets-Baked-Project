@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import weddingImage1 from '../img/wedding_1.jpg';
-import weddingImage2 from '../img/wedding_2.jpg';
+import weddingImage2 from '../img/Wedding_2.jpg';
 import weddingImage3 from '../img/wedding_3.jpg';
 import weddingImage4 from '../img/wedding_4.jpg';
 import weddingImage5 from '../img/wedding_5.jpg';
