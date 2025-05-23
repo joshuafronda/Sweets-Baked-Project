@@ -1,4 +1,3 @@
-import BackgroundImage from '../img/MOM.png'
 
 export const Hero = () => {
   return (
